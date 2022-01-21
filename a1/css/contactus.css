@@ -1,0 +1,178 @@
+/*
+Name: Danielle Leslie
+Assignment: a1 HTML/CSS Review, WD140
+Date: 01/20/2022
+*/
+
+div#confirmation {
+  font-size: 25px;
+  text-align: center;
+  margin: 5%;
+}
+
+section.menubackground {
+  background: rgba(205, 205, 205, 0.5);
+  height: 10%;
+  padding: 10px;
+  width: 50%;
+  align-content: center;
+  border-radius: 0.25rem;
+}
+
+section.contactbackdrop {
+  background: white;
+  height: 15%;
+  padding: 15px;
+  width: 95%;
+  align-content: center;
+  margin: 0;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+body fieldset {
+  font-family: "Big Shoulders Display", cursive;
+  border-radius: 0.25rem;
+}
+
+body h2 {
+  text-align: center;
+}
+
+input {
+  font-family: "Big Shoulders Display", cursive;
+  border-radius: 0.25rem;
+}
+
+input#buttons2 {
+  align-content: right;
+  color: white;
+  background-color: #e5cdcb;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 120%;
+}
+
+p.hoo {
+  float: left;
+  margin-left: 2%;
+}
+
+p.addy {
+  float: right;
+  margin-right: 2%;
+}
+
+p.addy a {
+  color: #ba4b2f;
+}
+
+p.phone {
+  float: right;
+  margin-right: 25%;
+}
+
+p.contact {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* type selectors */
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+section {
+  padding: 0 2em 1em;
+}
+label {
+  float: left;
+  width: 5em;
+  text-align: left;
+  font-size: 15px;
+  padding: 5px;
+}
+input,
+select,
+textarea {
+  margin-left: 5px;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  width: 95%;
+  height: 50px;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 100%;
+}
+
+#buttons input {
+  width: 7em;
+  font-size: 50%;
+}
+
+input#submit {
+  font-size: 120%;
+  color: white;
+  background-color: #e5cdcb;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+input#reset {
+  font-size: 120%;
+  color: white;
+  background-color: #e5cdcb;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+/* Change the background color on mouse-over */
+input#reset:hover {
+  background-color: #ba4b2f;
+  color: white;
+}
+
+input#submit:hover {
+  background-color: #ba4b2f;
+  color: white;
+}
+
+fieldset {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  width: 95%;
+  text-align: left;
+}
+legend {
+  color: #ba4b2f;
+  font-weight: bold;
+  font-size: 120%;
+  margin-bottom: 0.5em;
+}
+h3 {
+  color: #ba4b2f;
+  text-decoration: underline;
+}
+input:required:invalid {
+  background-image: url(../images/required.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+input:focus:invalid {
+  background-image: url(../images/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+input:required:valid {
+  background-image: url(../images/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
